@@ -17,3 +17,10 @@ Ferramentas utilizadas:
 
 Complementar:
 * [Introdução ao XPATH para Raspagem de Dados no HTML](https://escoladedados.org/tutoriais/xpath-para-raspagem-de-dados-em-html) - *Entendimento da sintaxe do XPATH, tendo mais liberdade para capturar dados da Web*
+
+Para utilização do projeto basta:
+1. Ativar o venv `selenium_venv\scripts\activate`(cmd/powershell) ou `source selenium_venv/scripts/activate`(bash)
+2. Instalar as dependencias `pip install -r requirements.txt`
+3. E rodar o programa `python setup.py`
+
+OBS: É necessário adicionar o chromedriver no PATH se tiver no windows para evitar erros, deixarei o link para [Getting Started - Chrome Driver](https://chromedriver.chromium.org/getting-started)
